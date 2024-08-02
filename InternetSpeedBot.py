@@ -5,10 +5,10 @@ from selenium.webdriver.common.keys import Keys
 
 PROMISED_UP = 10
 PROMISED_DOWN = 300
-TWITTER_EMAIL = "divyanshkul18@gmail.com"
-TWITTER_PASSWORD = "Divkul#23259"
+TWITTER_EMAIL = OS.environ.get("TWITTER_EMAIL")
+TWITTER_PASSWORD = os.environ.get("TWITTER_PASSWORD")
 CHROME_DRIVER_PATH = "/Users/Public/Desktop/Google Chrome.lnk"
-TWITTER_USERNAME = "Gr8Divyansh"
+TWITTER_USERNAME = os.environ.get("TWITTER_USERNAME")
 
 
 class InternetSpeedBot:
